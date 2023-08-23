@@ -284,6 +284,9 @@
               position: relative;
               display: inline-block;
           }
+          .nav3 {
+              margin-top: 10px;
+          }
 
           .dropdown-content {
               display: none;
@@ -381,7 +384,7 @@
       <div class=" navbar-collapse" id="navbarTogglerDemo02">
 
 
-        <ul class="navbar-nav mx-lg-auto mb-5">
+        <ul class="navbar-nav mx-lg-auto">
           <li class="nav-item active">
             <a class="nav-link" href="{{url('index')}}">PRODUCTS <span class="sr-only">(current)</span></a>
           </li>
@@ -401,15 +404,15 @@
             <li class="nav-item @@blog__active">
                 <a class="nav-link" href="https://bitnine.net/blog/">BLOG</a>
             </li>
-            <li class="nav-item @@company__active">
+            <li class="nav-item @@company__active mb-5">
                 <a class="nav-link nav-item.dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">COMPANY</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu mb-2" aria-labelledby="navbarDropdown">
                     <a class="btn btn-sm dropdown-item" href="{{url('about')}}">About us</a>
                     <a class="btn btn-sm dropdown-item" href="{{url('contact')}}">Contact</a>
                     <!-- Add more dropdown items as needed -->
                 </div>
             </li>
-            <li class="nav-item @@ir__active">
+            <li class="nav-item @@ir__active mb-5">
                 <a class="nav-link nav-item.dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">IR</a>
                 <div class="dropdown-menu mb-2" aria-labelledby="navbarDropdown">
                     <a class="btn btn-sm dropdown-item" href="https://bitnine.net/ir-announcement/">IR announcement</a>

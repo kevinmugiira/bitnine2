@@ -4,11 +4,11 @@
 @section('content')
 
 
-<section class="w3l-homeblock2 mt-5" id="work">
+<section class="w3l-homeblock2 nav3 mt-5" id="work">
     <div class="midd-w3 py-5 mt-8">
         <div class="container pb-lg-5 pb-md-3">
             <div class="row">
-                <div class="header-section text-center mt-4 mx-auto">
+                <div class="header-section text-center mt-5 mx-auto">
                     <h1 class="title-big">AgensGraph</h1>
 
                     <p class="mt-3">AgensGraph is an enterprise graph database management system which stores and
@@ -23,19 +23,13 @@
 <section class="w3l-progressblock py-5" id="why">
     <div class="container containerd py-lg-5 py-md-3">
         <div class="row">
-            <div class="header-section text-center align-center mx-auto">
+            <div class="header-section text-center mx-auto">
 
-
-
-
-                <div class="flip-box align-center">
+                <div class="flip-box">
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
                             <h1 style="font-size:40px;color:#3a3a3a;">W.H.Y.?</h1>
                             <h3 class="title-big text-center">AgensGraph</h3>
-{{--                            <p class="mt-3">Because AgensGraph takes on schema-free structure,--}}
-{{--                                it is convenient and efficient to modify and add new data on the existing database.--}}
-{{--                            </p>--}}
                         </div>
                         <div class="flip-box-back">
                             <h3 class="text-center">Because AgensGraph takes on schema-free structure,
@@ -200,7 +194,7 @@
             <p class="mt-3">AgensGraph is an enterprise graph database management system which stores and
                 manages various types of data including relational data in your legacy system.</p>
         </div>
-        <div class="mt-5">
+        <div class="containera mt-5">
             <div class="mx-auto">
                 <!--Horizontal Tab-->
                 <div id="parentHorizontalTab">
@@ -208,61 +202,61 @@
                         <div class="wpb_wrapper">
                             <table>
                                 <thead>
-                                <tr><td>&nbsp;</td>
+                                <tr style="margin: 10px"><td>&nbsp;</td>
                                     <td>Graph Model</td>
                                     <td>Relational Model</td>
                                     <td>Document Model</td>
                                     <td>Key-value Store Model</td>
                                 </tr></thead>
                                 <tbody>
-                                <tr>
+                                <tr bgcolor="fac433" style="box-sizing: border-box">
                                     <td><strong>AgensGraph</strong></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check_black.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check_black.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check_black.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check_black.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check_black.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check_black.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check_black.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check_black.png"></td>
                                 </tr>
                                 <tr>
                                     <td>ArangoDB</td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                 </tr>
                                 <tr>
                                     <td>Couchbase</td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                 </tr>
                                 <tr>
                                     <td>Neo4j</td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
                                 </tr>
                                 <tr>
                                     <td>OrientDB</td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                 </tr>
                                 <tr>
                                     <td>CosmosDB</td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                 </tr>
                                 <tr>
                                     <td>Neptune</td>
-                                    <td><img src="/wp-content/uploads/2020/09/check.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
-                                    <td><img src="/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
+                                    <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
                                 </tr>
                                 </tbody>
                             </table>
