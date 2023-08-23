@@ -194,7 +194,7 @@
             <p class="mt-3">AgensGraph is an enterprise graph database management system which stores and
                 manages various types of data including relational data in your legacy system.</p>
         </div>
-        <div class="containera mt-5">
+        <div class="containere mt-5">
             <div class="mx-auto">
                 <!--Horizontal Tab-->
                 <div id="parentHorizontalTab">
@@ -202,56 +202,56 @@
                         <div class="wpb_wrapper">
                             <table>
                                 <thead>
-                                <tr style="margin: 10px"><td>&nbsp;</td>
+                                <tr class="table" style="margin: 10px"><td>&nbsp;</td>
                                     <td>Graph Model</td>
                                     <td>Relational Model</td>
                                     <td>Document Model</td>
                                     <td>Key-value Store Model</td>
                                 </tr></thead>
                                 <tbody>
-                                <tr bgcolor="fac433" style="box-sizing: border-box">
+                                <tr class="table" bgcolor="fac433" style="box-sizing: border-box">
                                     <td><strong>AgensGraph</strong></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check_black.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check_black.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check_black.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check_black.png"></td>
                                 </tr>
-                                <tr>
+                                <tr class="table">
                                     <td>ArangoDB</td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                 </tr>
-                                <tr>
+                                <tr class="table">
                                     <td>Couchbase</td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                 </tr>
-                                <tr>
+                                <tr class="table">
                                     <td>Neo4j</td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
                                 </tr>
-                                <tr>
+                                <tr class="table">
                                     <td>OrientDB</td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                 </tr>
-                                <tr>
+                                <tr class="table">
                                     <td>CosmosDB</td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                 </tr>
-                                <tr>
+                                <tr class="table">
                                     <td>Neptune</td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/check.png"></td>
                                     <td><img src="https://bitnine.net/wp-content/uploads/2020/09/x.png"></td>
@@ -271,7 +271,7 @@
 </section>
 
 
-<section class="w3l-products py-5" id="projects">
+<section class="w3l-products color2 py-5" id="projects">
     <div class="container py-lg-3">
         <div class="header-section text-center mx-auto">
             <p>Why should I use</p>
@@ -284,13 +284,10 @@
         </div>
         <hr>
         <div class="mt-5">
-            <div class="containera col-lg-12">
-                <!--Horizontal Tab-->
-{{--                <div id="parentHorizontalTab ">--}}
-{{--                    <ul class="resp-tabs-list hor_1 col-lg-12">--}}
-{{--                        <li class="col-sm-6 card-container text-center mx-auto">--}}
+            <div class="col-lg-12">
+
                 <div class="containerc">
-                    <div class="containera mb-4 col-lg-12">
+                    <div class="containera text-center mb-4 col-lg-12">
                         <div class="col-lg-6 card-container mr-4">
                             <h3 class="mb-2"><strong>Customer Support</strong></h3>
                                     <p>We provide support by Agens support portal, e-mail and on-site for our customers who purchased AgensGraph Enterprise Edition with our commercial license.
@@ -304,55 +301,63 @@
                                 </p>
                         </div>
                     </div>
-                        <div class="containera col-lg-12">
-                            <div class="col-sm-6 mr-4" style="background-color: rgb(75, 77, 79); box-shadow: rgba(228, 228, 228, 0.98) 1.02846px 1.02846px 3px 2.02846px; margin: 0px; transition: all 700ms ease 0s; border-color: transparent;" data-hover_bg_color="#1f6eae" data-hover_box_shadow=" 2px 2px 3px 3px rgba(89,89,89,0.3) " data-responsive_margins="margin:0px;" data-normal_margins="margin:0px;" data-bg="#4c4c4c">
-                                <h2 style="font-size: 30px;color: #ffffff;text-align: center" class="">Technical Support</h2>
-                                <div class="wpb_text_column ">
-                                    <div class="wpb_wrapper">
-                                        <p style="font-size: 20px; text-align: center;">Community Edition<br>
-                                            –</p>
-                                        <hr style="border: double #d1d1d1; border-width: 3px 0 0 0; widh: 100%; padding-bottom: 20px;">
-                                        <p style="font-size: 17px; text-align: center;">
-                                            <strong>Enterprise Edition</strong></p>
-                                        <p style="text-align: center;">24×7 or 8×5 Online Support (e-mail / Agens support portal)<br>
-                                            Professional On-site Support(separately costs)
-                                        </p>
-                                    </div>
+                        <div class="containerdd col-lg-12">
+                            <div class="col-sm-6 ml-4" style="box-shadow: rgb(229, 229, 229) 1px 1px 3px 2px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent;" data-hover_bg_color="#1f6eae" data-hover_box_shadow=" 2px 2px 3px 3px rgba(89,89,89,0.3) " data-bg="#4c4" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
+                                <div class="mydiv" style=" width: 100%; padding: 3%">
+                                    <h2 style="font-size: 30px;color: #ffffff;text-align: center" class="mb-4 mt-4">Technical Support</h2>
                                 </div>
+
+                                <hr style="border-top: double #d1d1d1; border-width: 3px 0 0 0; widh: 100%; padding-bottom: 20px;">
+
+                                <p style="font-size: 20px; text-align: center;">Community Edition<br>
+                                    –</p>
+                                <hr style="border-top: double #d1d1d1; border-width: 3px 0 0 0; widh: 100%; padding-bottom: 20px;">
+                                <p style="font-size: 17px; text-align: center;">
+                                    <strong>Enterprise Edition</strong>
+                                </p>
+                                <p style="text-align: center;">24×7 or 8×5 Online Support (e-mail / Agens support portal)<br>
+                                    Professional On-site Support(separately costs)
+                                </p>
+
                             </div>
 
-                            <div class="col-sm-6 ml-4" style="background-color: rgb(76, 76, 76); box-shadow: rgb(229, 229, 229) 1px 1px 3px 2px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent;" data-hover_bg_color="#1f6eae" data-hover_box_shadow=" 2px 2px 3px 3px rgba(89,89,89,0.3) " data-bg="#4c4c4c" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
-                                <h2 style="font-size: 30px;color: #ffffff;text-align: center" class="vc_custom_heading vc_custom_1601272736677">License</h2>
-                                <div class="wpb_text_column  vc_custom_1606453267085">
-                                    <div class="wpb_wrapper">
-                                        <p style="font-size: 20px; text-align: center;">Community Edition<br>
-                                            Apache 2.0</p>
-                                        <hr style="border-top: double #d1d1d1; border-width: 3px 0 0 0; widh: 100%; padding-bottom: 20px;">
-                                        <p style="font-size: 17px; text-align: center;">
-                                            <strong>Enterprise Edition</strong>
-                                        </p>
-                                        <div style="width: 100%;">
-                                            <table cellspacing="0" cellpadding="0" align="center">
-                                                <tbody>
-                                                <tr>
-                                                    <td style="margin: 0px; padding: 0px 3px; text-align: center;" colspan="3">Commercial</td>
-                                                </tr>
-                                                <tr style="text-align: center;">
-                                                    <td style="width: 33%; margin: 0px; padding: 0px 3px;">Evaluation</td>
-                                                    <td style="width: 33%; margin: 0px; padding: 0px 3px;">Development</td>
-                                                    <td style="width: 33%; margin: 0px; padding: 0px 3px;">Production</td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
+                            <div class="col-sm-6 ml-4" style="box-shadow: rgb(229, 229, 229) 1px 1px 3px 2px; transition: all 700ms ease 0s; margin: 0px; border-color: transparent;" data-hover_bg_color="#1f6eae" data-hover_box_shadow=" 2px 2px 3px 3px rgba(89,89,89,0.3) " data-bg="#4c4" data-normal_margins="margin-left:0px;margin-right:0px;margin-top:0px;margin-bottom:0px;">
+                                <div class="mydiv" style="width: 100%; padding: 3%">
+                                 <h2 style="font-size: 30px;color: #ffffff;text-align: center" class="mb-4 mt-4">License</h2>
                                 </div>
+
+                                        <hr style="border-top: double #d1d1d1; border-width: 3px 0 0 0; widh: 100%; padding-bottom: 20px;">
+
+                                <p style="font-size: 20px; text-align: center;">Community Edition<br>
+                                    Apache 2.0</p>
+                                <hr style="border-top: double #d1d1d1; border-width: 3px 0 0 0; widh: 100%; padding-bottom: 20px;">
+                                <p style="font-size: 17px; text-align: center;">
+                                    <strong>Enterprise Edition</strong>
+                                </p>
+                                <div class="mb-4" style="width: 100%;">
+                                    <table style="border-collapse: collapse" cellspacing="0" cellpadding="0" align="center">
+                                        <tbody>
+                                        <tr>
+                                            <td style="margin: 0px; padding: 0px 3px; text-align: center;" colspan="3">Commercial</td>
+                                        </tr>
+                                        <tr class="table" style="text-align: center;">
+                                            <td style="width: 33%; margin: 0px; padding: 0px 3px;">Evaluation</td>
+                                            <td style="width: 33%; margin: 0px; padding: 0px 3px;">Development</td>
+                                            <td style="width: 33%; margin: 0px; padding: 0px 3px;">Production</td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                    </div>
+
+                        </div>
                             </div>
 
                         </div>
-                    <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="#learn"> CONTACT US</a>
-                    </ul>
-                </div>
+                    <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" style="margin-left: 44%" href="#learn"> CONTACT US</a>
+             </div>
 
                 </div>
             </div>
