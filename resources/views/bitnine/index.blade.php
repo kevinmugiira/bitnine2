@@ -5,11 +5,11 @@
 
 
 <section class="w3l-homeblock2 nav3 mt-5" id="work">
-    <div class="midd-w3 py-5 mt-8">
-        <div class="container pb-lg-5 pb-md-3">
+    <div class="midd-w3 py-5 mt-5">
+        <div class="container pb-lg-5 pb-md-3 mt-5">
             <div class="row">
                 <div class="header-section text-center mt-5 mx-auto">
-                    <h1 class="title-big">AgensGraph</h1>
+                    <h1 class="title-big" style="font-family: Monda; font-size: 60px">AgensGraph</h1>
 
                     <p class="mt-3">AgensGraph is an enterprise graph database management system which stores and
                         manages various types of data including relational data in your legacy system.
@@ -25,16 +25,44 @@
         <div class="row">
             <div class="header-section text-center mx-auto">
 
-                <div class="flip-box">
-                    <div class="flip-box-inner">
+                <div class="flip-box ">
+                    <div class="flip-box-inner center-container" style="display: block">
+
+{{--                        <div class="cl-flipbox-front" style="padding: 102px 15% 15%; background-color: rgb(255, 255, 255); height: 204px;">--}}
+{{--                            <div class="cl-flipbox-front-h">--}}
+{{--                                <h4 class="cl-flipbox-front-title" style="font-size:55px;color:#3a3a3a;">W. H. Y. ?</h4>--}}
+{{--                                <div class="cl-flipbox-front-image" style="width:260px;">--}}
+{{--                                    <img width="300" height="57" src="https://bitnine.net/wp-content/uploads/2020/09/ag_logo-300x57.png" class="attachment-medium size-medium" alt="" srcset="https://bitnine.net/wp-content/uploads/2020/09/ag_logo-300x57.png 300w, https://bitnine.net/wp-content/uploads/2020/09/ag_logo.png 505w" sizes="(max-width: 300px) 100vw, 300px">--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
                         <div class="flip-box-front">
-                            <h1 style="font-size:40px;color:#3a3a3a;">W.H.Y.?</h1>
-                            <h3 class="title-big text-center">AgensGraph</h3>
+                            <div style="padding: 102px 15% 15%; background-color: rgb(255, 255, 255); height: 204px;">
+                                <div>
+                                    <h4 style="font-size:55px;color:#3a3a3a;">W. H. Y. ?</h4>
+                                    <div style="width:260px;">
+                                        <img width="300" height="57" src="https://bitnine.net/wp-content/uploads/2020/09/ag_logo-300x57.png" alt="" srcset="https://bitnine.net/wp-content/uploads/2020/09/ag_logo-300x57.png 300w, https://bitnine.net/wp-content/uploads/2020/09/ag_logo.png 505w" sizes="(max-width: 300px) 100vw, 300px">
+                                    </div>
+                                </div>
+                            </div>
+{{--                            <div class="cl-flipbox-front-h">--}}
+{{--                                <h4 class="cl-flipbox-front-title" style="font-size:55px;color:#3a3a3a;">W. H. Y. ?</h4>--}}
+{{--                                <div class="cl-flipbox-front-image" style="width:260px;">--}}
+{{--                                    <img width="300" height="57" src="https://bitnine.net/wp-content/uploads/2020/09/ag_logo-300x57.png" class="attachment-medium size-medium" alt="" srcset="https://bitnine.net/wp-content/uploads/2020/09/ag_logo-300x57.png 300w, https://bitnine.net/wp-content/uploads/2020/09/ag_logo.png 505w" sizes="(max-width: 300px) 100vw, 300px">--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <h1 style="font-size:40px;color:#3a3a3a;">W.H.Y.?</h1>--}}
+{{--                            <h3 class="title-big text-center">AgensGraph</h3>--}}
+
                         </div>
                         <div class="flip-box-back">
-                            <h3 class="text-center">Because AgensGraph takes on schema-free structure,
-                                it is convenient and efficient to modify and add new data on the existing database.
-                            </h3>
+
+                            <div class="cl-flipbox-back" style="padding: 102px 15% 15%; background-color: rgb(30, 115, 190);">
+                                <div class="cl-flipbox-back-h">
+                                    <h4 class="cl-flipbox-back-title" style="font-size:24px;color:#ffffff;">Because AgensGraph takes on schema-free structure, it is convenient and efficient to modify and add new data on the existing database.</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -356,7 +384,7 @@
                             </div>
 
                         </div>
-                    <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" style="margin-left: 44%" href="#learn"> CONTACT US</a>
+                    <a class="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" style="margin-left: 44%" href="{{url('contact')}}"> CONTACT US</a>
              </div>
 
                 </div>

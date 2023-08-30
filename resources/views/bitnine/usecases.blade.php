@@ -4,10 +4,10 @@
 @section('content')
 
     <section class="w3l-services-block-3 py-5 mt-5" id="services">
-        <div class="features-main py-lg-5 py-md-3">
-            <div class="container">
+        <div class="features-main py-lg-5 py-md-3 mt-5">
+            <div class="container mt-5">
                 <div class="header-section text-center mx-auto">
-                    <h3 class="title-big">Use Cases </h3>
+                    <h3 class="title-big" style="font-family: Monda; font-size: 60px">Use Cases </h3>
                     <p class="mt-3">Our graph database solution cover a wide range of projects.
                         If you need help overcoming your obstacle, feel free to contact us.</p>
                 </div>

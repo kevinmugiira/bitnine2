@@ -5,10 +5,10 @@
 @section('content')
 
     <section class="w3l-services-block-3 py-5 mt-5" id="services">
-        <div class="features-main py-lg-5 py-md-3">
-            <div class="container">
+        <div class="features-main py-lg-5 py-md-3 mt-5">
+            <div class="container mt-5">
                 <div class="header-section text-center mx-auto">
-                    <h1 class="title-big"><b>Connecting Data </b><small>for a Smarter World</small></h1>
+                    <h1 style="font-family: Monda; margin-left:2%; font-size: 60px"><b>Connecting Data </b><small>for a Smarter World</small></h1>
                     <p class="mt-3">With Bitnine’s unique Graph technology,
                         we will innovate the database industry as a whole.
                         Our vision is to create a smarter world by connecting all data with Graphs.</p>

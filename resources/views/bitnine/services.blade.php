@@ -4,10 +4,10 @@
 @section('content')
 
     <section class="w3l-services-block-3 py-5 mt-5" id="service">
-        <div class="features-main py-lg-5 py-md-3">
-            <div class="container">
+        <div class="features-main py-lg-5 py-md-3 mt-5">
+            <div class="container mt-5">
                 <div class="header-section text-center mx-auto">
-                    <h3 class="title-big">SERVICES </h3>
+                    <h3 class="title-big" style="font-family: Monda; font-size: 60px">SERVICES </h3>
                     <p class="mt-3">We provide consulting and analyzing service
                         for those who need help setting up graph database to your existing system.
                     </p>
@@ -20,12 +20,12 @@
         </div>
     </section>
 
-    <section class="w3l-aboutblock2" id="story">
+    <section class="w3l-aboutblock2 w3l-services" id="story">
         <div class="py-5">
             <div class="container py-lg-4 py-md-3 text-center text-align">
                 <div class="cwp4-two row">
                     <div class="cwp4-text col-lg-12">
-                        <h3 class="title-big"><block>CONSULTING</block> <small>Service</small></h3>
+                        <h3 class="title-big" ><block>CONSULTING</block> <small>Service</small></h3>
                         <p class="mt-2">
                             We provide graph data consulting and modeling services
                         </p>
