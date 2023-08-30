@@ -1,4 +1,4 @@
-<p align="center"><a href="https://bitnine.net/wp-content/uploads/2023/08/bitnine-logo_.png" target="_blank"><img src="https://bitnine.net/wp-content/uploads/2023/08/bitnine-logo_.png" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://bitnine.net/wp-content/uploads/2023/08/bitnine-logo_.png" target="_blank"><img src="https://bitnine.net/wp-content/uploads/2023/08/bitnine-logo_.png" width="400" alt="Bitnine Logo"></a></p>
 
 
 ## About Bitnine2
